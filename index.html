@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materiais de Língua Portuguesa | Prof. Marcus Oliveira</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2a2a72;
+      --accent: #ffcc00;
+      --bg: #f4f6f8;
+      --white: #ffffff;
+      --text: #333333;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #2a2a72, #009ffd);
+      color: var(--white);
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 20px;
+      background: var(--accent);
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .cta:hover {
+      background: #e6b800;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: var(--primary);
+    }
+    ul {
+      list-style: inside square;
+      margin-left: 20px;
+    }
+    .product {
+      background: var(--white);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      padding: 20px 30px;
+      margin-bottom: 30px;
+      transition: transform 0.3s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product h3 {
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+      color: var(--primary);
+    }
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: var(--primary);
+      color: var(--white);
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .button:hover {
+      background: #1e1e5a;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input[type="email"] {
+      padding: 12px;
+      width: 70%;
+      max-width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 25px;
+      margin-right: 10px;
+    }
+    input[type="submit"] {
+      padding: 12px 24px;
+      background-color: var(--accent);
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    input[type="submit"]:hover {
+      background-color: #e6b800;
+    }
+    footer {
+      background-color: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Materiais de Língua Portuguesa para Concursos e Formação Docente</h1>
+    <p>Domine os conteúdos que mais caem em provas e se destaque na carreira docente!</p>
+    <a class="cta" href="#produtos">Ver Todos os Materiais</a>
+  </header>
+
+  <section class="section">
+    <h2>O que você vai encontrar aqui</h2>
+    <ul>
+      <li>Apostilas de Língua Portuguesa para concursos públicos</li>
+      <li>Resumos atualizados da BNCC</li>
+      <li>Questões comentadas para formação docente</li>
+      <li>Materiais alinhados à matriz do Saeb</li>
+      <li>Preparatório para o Profletras</li>
+    </ul>
+  </section>
+
+  <section class="section" id="produtos">
+    <h2>Produtos em Destaque</h2>
+    <div class="product">
+      <h3>Apostila BNCC para Concursos</h3>
+      <p>Resumo completo da BNCC com foco em provas de concursos da área educacional.</p>
+      <p><strong>R$ 19,90</strong></p>
+      <a class="button" href="#">Comprar agora</a>
+    </div>
+    <div class="product">
+      <h3>Preparatório Profletras - Volume 1</h3>
+      <p>Questões comentadas + conteúdo base para o Profletras.</p>
+      <p><strong>R$ 29,90</strong></p>
+      <a class="button" href="#">Comprar agora</a>
+    </div>
+    <div class="product">
+      <h3>Kit com 50 questões comentadas</h3>
+      <p>Questões para estudantes de Letras e professores em formação.</p>
+      <p><strong>R$ 24,90</strong></p>
+      <a class="button" href="#">Comprar agora</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Baixe um material gratuito!</h2>
+    <p>Receba grátis um resumo com questões da BNCC + plano de estudos semanal para concursos.</p>
+    <form>
+      <input type="email" placeholder="Digite seu e-mail" required>
+      <input type="submit" value="Quero meu material gratuito">
+    </form>
+  </section>
+
+  <section class="section">
+    <h2>Quem é Marcus Oliveira?</h2>
+    <p>Sou professor de Língua Portuguesa, especialista em formação docente, e crio materiais autorais voltados para concursos e a prática pedagógica. Meu compromisso é oferecer conteúdo atualizado e de qualidade para quem quer aprender com profundidade e objetividade.</p>
+    <a class="button" href="https://www.instagram.com/prof.marcusoliveira" target="_blank">Me siga no Instagram</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Prof. Marcus Oliveira | Todos os direitos reservados</p>
+    <p><a href="#">Política de privacidade</a> | <a href="#">Termos de uso</a></p>
+  </footer>
+</body>
+</html>
